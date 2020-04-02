@@ -1,9 +1,9 @@
 import random, pygame
 
-x=20
-y=20
-size=25
-numberOfMines=40
+x=20 #Width of grid
+y=20 #Height of grid
+size=25 #Size of box
+numberOfMines=40 #Number of mines
 width=(x+2)*size
 height=(y+3)*size
 end=False
